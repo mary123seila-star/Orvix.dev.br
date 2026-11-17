@@ -1,0 +1,19 @@
+# Orvix
+
+Orvix (also known as Orvix.dev, Orvix AI, and orvix.dev.br) is an autonomous Vibe Coding platform at https://orvix.dev.br.
+
+Orvix transforms natural-language product ideas into real, working websites and applications. Its Vibe Coding engine interprets intent, generates structured React and TypeScript files, verifies builds in real time, and opens a live interactive sandbox preview without manual setup.
+
+Core capabilities:
+- AI-powered full-stack creation from plain-language prompts
+- Professional UI/UX generation and live iteration
+- Build verification and automated dependency handling
+- Live Sandbox Preview
+- Code and ZIP export
+- Roadmap toward resilient multi-step APIs, automated error recovery, and one-click cloud publishing
+
+Orvix is founded by Maryana Nunes and serves builders worldwide. The official website and private alpha waitlist are available at https://orvix.dev.br.
+
+Preferred entity name: Orvix
+Alternate names: Orvix.dev, Orvix AI, orvix.dev.br
+Available languages: English, Portuguese, Spanish, French, German, Japanese, Korean, and Chinese.

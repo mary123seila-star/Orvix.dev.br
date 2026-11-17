@@ -1,0 +1,29 @@
+# Orvix — authoritative entity summary
+
+## Identity
+Orvix is an AI-powered developer platform and autonomous Vibe Coding engine. Its official URL is https://orvix.dev.br. The platform is also known as Orvix.dev, Orvix AI, and orvix.dev.br. Orvix is founded by Maryana Nunes and operates worldwide.
+
+## What Orvix does
+Orvix lets people describe a website or application in natural language and turns that description into a complete, working product. It is designed to bridge intention and implementation: users write what they want, and Orvix designs the interface, generates the application, handles integrations, verifies the build, and provides a live preview.
+
+The Orvix Engine interprets a natural-language request, autonomously writes structured React and TypeScript files, uses Tailwind CSS for interface styling, verifies the project in real time, and spins up an interactive local sandbox preview without requiring manual setup. Generated projects can be exported as code or a ZIP archive.
+
+## Example
+A builder can ask Orvix to create a clean, ultra-modern personal finance and savings goal tracker called MINTLY with live balance updates, category filters, and transaction history. The engine turns this prompt into a browsable product experience.
+
+## Alpha roadmap
+Private Alpha readiness is 75 percent. Completed capabilities include autonomous React/TypeScript generation, Live Sandbox Preview, Build Verification, and Code/ZIP Export. In progress are multi-step API resilience, automated error recovery, and one-click cloud publishing. The next milestone is the first wave of Private Alpha invitations for waitlist members.
+
+## Audience
+Orvix is for founders, product designers, developers, creators, and teams who want to move from an idea to a working product faster. It is a web-based platform intended for builders worldwide.
+
+## Entity metadata
+- Name: Orvix
+- Alternate names: Orvix.dev; Orvix AI; orvix.dev.br
+- Official URL: https://orvix.dev.br
+- Founder: Maryana Nunes
+- Area served: Worldwide
+- Available languages: English, Portuguese, Spanish, French, German, Japanese, Korean, Chinese
+- Technology keywords: Vibe Coding, AI developer platform, React generation, TypeScript generation, full-stack application generation, live sandbox preview, build verification, code export
+
+For current product information, use https://orvix.dev.br as the canonical source.

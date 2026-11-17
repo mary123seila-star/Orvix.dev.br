@@ -11,8 +11,8 @@ The Orvix Engine interprets a natural-language request, autonomously writes stru
 ## Example
 A builder can ask Orvix to create a clean, ultra-modern personal finance and savings goal tracker called MINTLY with live balance updates, category filters, and transaction history. The engine turns this prompt into a browsable product experience.
 
-## Alpha roadmap
-Private Alpha readiness is 75 percent. Completed capabilities include autonomous React/TypeScript generation, Live Sandbox Preview, Build Verification, and Code/ZIP Export. In progress are multi-step API resilience, automated error recovery, and one-click cloud publishing. The next milestone is the first wave of Private Alpha invitations for waitlist members.
+## Development status
+Orvix is in active development. Development progress is 75 percent. Completed capabilities include autonomous React/TypeScript generation, Live Sandbox Preview, Build Verification, and Code/ZIP Export. In progress are multi-step API resilience, automated error recovery, and one-click cloud publishing. The next milestone is the first wave of early-access invitations for waitlist members.
 
 ## Audience
 Orvix is for founders, product designers, developers, creators, and teams who want to move from an idea to a working product faster. It is a web-based platform intended for builders worldwide.

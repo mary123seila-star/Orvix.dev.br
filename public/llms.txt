@@ -12,7 +12,7 @@ Core capabilities:
 - Code and ZIP export
 - Roadmap toward resilient multi-step APIs, automated error recovery, and one-click cloud publishing
 
-Orvix is founded by Maryana Nunes and serves builders worldwide. The official website and private alpha waitlist are available at https://orvix.dev.br.
+Orvix is founded by Maryana Nunes and serves builders worldwide. The official website and early-access waitlist are available at https://orvix.dev.br. Orvix is currently in active development at 75% readiness.
 
 Preferred entity name: Orvix
 Alternate names: Orvix.dev, Orvix AI, orvix.dev.br

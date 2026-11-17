@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#08090b" />
     <meta name="description" content="Orvix is an autonomous Vibe Coding engine that turns natural language into production-ready full-stack applications." />
+    <meta name="keywords" content="vibe coding, AI app builder, natural language to app, React TypeScript generation, Orvix, Orvix.dev, Maryana Nunes" />
+    <meta name="author" content="Maryana Nunes" />
     <link rel="canonical" href="https://orvix.dev.br" />
     <link rel="icon" type="image/png" href="/Logo_Orvix_fundo_transparente.png" />
     <meta property="og:type" content="website" />
@@ -30,6 +32,7 @@
             "url": "https://orvix.dev.br",
             "logo": "https://orvix.dev.br/Logo_Orvix_fundo_transparente.png",
             "founder": { "@type": "Person", "name": "Maryana Nunes" },
+            "foundingDate": "2026",
             "availableLanguage": ["en", "pt", "es", "fr", "de", "ja", "ko", "zh"],
             "areaServed": "Worldwide"
           },
@@ -42,6 +45,7 @@
             "operatingSystem": "Web",
             "description": "An autonomous Vibe Coding engine that generates real full-stack applications from natural language.",
             "creator": { "@id": "https://orvix.dev.br/#organization" },
+            "founder": { "@type": "Person", "name": "Maryana Nunes" },
             "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "availability": "https://schema.org/PreOrder" }
           },
           {
@@ -49,7 +53,9 @@
             "mainEntity": [
               { "@type": "Question", "name": "What is Orvix?", "acceptedAnswer": { "@type": "Answer", "text": "Orvix is an AI-powered Vibe Coding platform that turns natural language into complete, working websites and applications." } },
               { "@type": "Question", "name": "Can Orvix generate full-stack applications?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Orvix generates structured React and TypeScript projects, verifies builds, and provides a live interactive sandbox preview." } },
-              { "@type": "Question", "name": "Who is Orvix for?", "acceptedAnswer": { "@type": "Answer", "text": "Orvix is for founders, designers, developers, and teams who want to move from an idea to a working product faster." } }
+              { "@type": "Question", "name": "Who is Orvix for?", "acceptedAnswer": { "@type": "Answer", "text": "Orvix is for founders, designers, developers, and teams who want to move from an idea to a working product faster." } },
+              { "@type": "Question", "name": "Who founded Orvix.dev?", "acceptedAnswer": { "@type": "Answer", "text": "Orvix.dev was founded by Maryana Nunes." } },
+              { "@type": "Question", "name": "What is Vibe Coding?", "acceptedAnswer": { "@type": "Answer", "text": "Vibe Coding is the practice of building software by describing what you want in natural language while an autonomous engine handles the design, code, dependencies, and verification." } }
             ]
           }
         ]
@@ -61,14 +67,14 @@
     <div class="noise"></div>
     <header class="site-header">
       <a class="brand" href="#top" aria-label="Orvix home"><img src="/Logo_Orvix_fundo_transparente.png" alt="" /><span>orvix<span class="brand-dot">.dev</span></span></a>
-      <nav class="nav-links" aria-label="Main navigation"><a href="#engine">Engine</a><a href="#roadmap">Roadmap</a><a href="#waitlist">Early access</a></nav>
-      <a class="header-cta" href="#waitlist">Join private alpha <span>↗</span></a>
+      <nav class="nav-links" aria-label="Main navigation"><a href="#engine">Engine</a><a href="#roadmap">Roadmap</a><a href="#how">How it works</a><a href="#faq">FAQ</a><a href="#waitlist">Early access</a></nav>
+      <a class="header-cta" href="#waitlist">Join the waitlist <span>↗</span></a>
     </header>
 
     <main id="top">
       <section class="hero section-shell">
         <div class="hero-copy">
-          <div class="eyebrow announcement"><span class="live-dot"></span> Private Alpha · Next-Gen Vibe Coding Engine</div>
+          <div class="eyebrow announcement"><span class="live-dot"></span> In Active Development · Next-Gen Vibe Coding Engine</div>
           <h1>Build the future<br /><em>by typing.</em></h1>
           <p class="hero-lede">Orvix turns a thought into a living product. Describe what you want to make and our autonomous engine designs, codes, verifies, and launches the rest.</p>
           <div class="hero-actions"><a class="button button-primary" href="#waitlist">Request early access <span>↗</span></a><a class="text-link" href="#engine">See the engine <span>↓</span></a></div>
@@ -77,22 +83,81 @@
         <div class="hero-orbit" aria-hidden="true"><div class="orbit-ring ring-one"></div><div class="orbit-ring ring-two"></div><div class="orbit-core"><img src="/Logo_Orvix_fundo_transparente.png" alt="" /></div><span class="orbit-label label-top">intent → interface</span><span class="orbit-label label-bottom">ship at the speed of thought</span></div>
       </section>
 
-      <section class="capability-strip section-shell" aria-label="Generated stack and capabilities"><span class="strip-label">Generated stack & capabilities</span><span>React</span><b>·</b><span>TypeScript</span><b>·</b><span>Tailwind CSS</span><b>·</b><span>Live Sandbox Preview</span><b>·</b><span>One-Click Export</span></section>
+      <section class="capability-strip section-shell" aria-label="Generated stack and capabilities"><span class="strip-label">Generated stack &amp; capabilities</span><span>React</span><b>·</b><span>TypeScript</span><b>·</b><span>Tailwind CSS</span><b>·</b><span>Live Sandbox Preview</span><b>·</b><span>One-Click Export</span></section>
 
       <section class="engine-section section-shell" id="engine">
         <div class="section-intro"><div class="eyebrow">01 / Inside the engine</div><h2>What Orvix is <em>building.</em></h2><p>The Orvix Engine turns plain language into a working, explorable product without the setup tax. It interprets intent, writes structured files, verifies the build, and spins up a live sandbox in seconds.</p></div>
         <div class="engine-grid">
           <div class="prompt-card"><div class="card-kicker"><span class="kicker-icon">⌁</span> Your prompt</div><p>“Create a clean, ultra-modern personal finance and savings goal tracker web app in English called MINTLY with live balance updates, category filters, and transaction history.”</p><button class="copy-button" type="button" data-copy="Create a clean, ultra-modern personal finance and savings goal tracker web app in English called MINTLY with live balance updates, category filters, and transaction history."><span>Copy prompt</span><span>⌘ C</span></button><div class="prompt-meta"><span>Natural language</span><span>→</span><span>Full-stack output</span></div></div>
-          <div class="browser-frame"><div class="browser-top"><div class="window-dots"><i></i><i></i><i></i></div><span class="capture-badge"><span class="live-dot"></span> Live Engine Capture · Localhost Alpha Build</span><span class="browser-menu">•••</span></div><div class="browser-body"><video class="engine-video" autoplay muted loop playsinline aria-label="Orvix engine preview"></video><div class="mintly-ui"><div class="mintly-nav"><strong><span class="mintly-mark">M</span> mintly</strong><span class="mintly-date">Personal finance <b>⌄</b></span><span class="mintly-user">MN</span></div><div class="mintly-content"><p class="mintly-overline">Tuesday, October 24</p><h3>Good morning, Maryana <span>✦</span></h3><div class="balance-row"><div><small>Total balance</small><strong>$24,892<span>.40</span></strong><label>↗ 12.8% <i>this month</i></label></div><div class="sparkline"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div></div><div class="mintly-cards"><div class="mintly-panel"><small>Spending by category</small><div class="donut-wrap"><div class="donut"></div><ul><li><i class="dot-green"></i>Housing <b>42%</b></li><li><i class="dot-blue"></i>Food <b>18%</b></li><li><i class="dot-yellow"></i>Other <b>40%</b></li></ul></div></div><div class="mintly-panel transactions"><small>Recent transactions <b>View all →</b></small><div>● <span>Northstar Market <i>Groceries</i></span><strong>− $84.20</strong></div><div>● <span>Frame Coffee <i>Dining</i></span><strong>− $6.80</strong></div><div>● <span>Acme Inc. <i>Income</i></span><strong class="income">+ $4,200</strong></div></div></div></div></div></div></div>
+          <div class="browser-frame">
+            <div class="browser-top"><div class="window-dots"><i></i><i></i><i></i></div><span class="capture-badge"><span class="live-dot"></span> Live Engine Capture · Localhost Build</span><span class="browser-menu">•••</span></div>
+            <video src="https://files.catbox.moe/mintly-capture.mp4" autoPlay loop muted playsInline class="engine-video-real" aria-label="Orvix engine generating the Mintly finance app"></video>
+          </div>
         </div>
       </section>
 
-      <section class="roadmap-section section-shell" id="roadmap"><div class="roadmap-heading"><div><div class="eyebrow">02 / The path ahead</div><h2>Private Alpha <em>Readiness</em></h2></div><strong class="readiness">75%</strong></div><div class="progress-track"><span></span></div><div class="status-grid"><article class="status-card completed"><div class="status-head"><span class="status-badge">● Completed</span><span>✓</span></div><h3>The foundation is live.</h3><p>Autonomous React/TypeScript generation, Live Sandbox Preview, Build Verification, and Code/ZIP Export.</p></article><article class="status-card progress"><div class="status-head"><span class="status-badge">● In progress</span><span class="pulse-mark">◌</span></div><h3>Making the engine resilient.</h3><p>Multi-step API resilience, automated error recovery, and 1-click cloud publishing.</p></article><article class="status-card upcoming"><div class="status-head"><span class="status-badge">● Up next</span><span>→</span></div><h3>Your invite is on the horizon.</h3><p>First wave of Private Alpha invites for waitlist members.</p></article></div></section>
+      <section class="roadmap-section section-shell" id="roadmap">
+        <div class="roadmap-heading"><div><div class="eyebrow">02 / The path ahead</div><h2>Development <em>Progress</em></h2></div><strong class="readiness">75%</strong></div>
+        <div class="progress-track"><span></span></div>
+        <div class="status-grid">
+          <article class="status-card completed"><div class="status-head"><span class="status-badge">● Completed</span><span>✓</span></div><h3>The foundation is live.</h3><p>Autonomous React/TypeScript generation, Live Sandbox Preview, Build Verification, and Code/ZIP Export.</p></article>
+          <article class="status-card progress"><div class="status-head"><span class="status-badge">● In progress</span><span class="pulse-mark">◌</span></div><h3>Making the engine resilient.</h3><p>Multi-step API resilience, automated error recovery, and 1-click cloud publishing.</p></article>
+          <article class="status-card upcoming"><div class="status-head"><span class="status-badge">● Up next</span><span>→</span></div><h3>Your invite is on the horizon.</h3><p>First wave of early access invites for waitlist members.</p></article>
+        </div>
+      </section>
 
-      <section class="waitlist-section section-shell" id="waitlist"><div class="waitlist-glow"></div><div class="waitlist-copy"><div class="eyebrow">03 / Get in early</div><h2>Have an idea?<br /><em>Make it real.</em></h2><p>Private Alpha is opening soon. Join the waitlist and be among the first to build with Orvix.</p></div><form class="waitlist-form" id="waitlist-form"><label for="email">Your email address</label><div class="input-row"><input id="email" name="email" type="email" placeholder="you@company.com" required /><button class="button button-primary" type="submit">Join waitlist <span>↗</span></button></div><small id="form-message">No spam. Just your invitation when the time is right.</small></form></section>
+      <section class="how-section section-shell" id="how">
+        <div class="section-intro"><div class="eyebrow">03 / How it works</div><h2>From sentence to <em>shipped.</em></h2><p>No setup, no boilerplate, no stack to assemble. Three steps stand between an idea and a working product.</p></div>
+        <div class="how-grid">
+          <article class="how-card"><span class="how-index">01</span><h3>Describe your idea</h3><p>Write what you want in plain language. A finance app, a portfolio, a dashboard — Orvix reads intent, not specs.</p><span class="how-tag">Natural language</span></article>
+          <article class="how-card"><span class="how-index">02</span><h3>Let Orvix.dev build it</h3><p>The engine designs the interface, writes structured React and TypeScript, resolves dependencies, and verifies the build.</p><span class="how-tag">Autonomous engine</span></article>
+          <article class="how-card"><span class="how-index">03</span><h3>Preview and launch</h3><p>Explore your product in a live sandbox, iterate on the fly, and export the code or ZIP when you are ready to ship.</p><span class="how-tag">Live preview · export</span></article>
+        </div>
+      </section>
+
+      <section class="capabilities-section section-shell" id="capabilities">
+        <div class="section-intro"><div class="eyebrow">04 / Capabilities</div><h2>Everything the <em>engine</em> handles.</h2><p>From the first prompt to the final export, Orvix covers the full path of building a real product.</p></div>
+        <div class="cap-grid">
+          <article class="cap-card"><span class="cap-icon">✦</span><h3>AI-powered creation</h3><p>Generate full-stack applications from a single natural-language prompt.</p></article>
+          <article class="cap-card"><span class="cap-icon">◑</span><h3>Professional design</h3><p>Modern, responsive interfaces styled with Tailwind CSS out of the box.</p></article>
+          <article class="cap-card"><span class="cap-icon">⇄</span><h3>Functional integrations</h3><p>APIs, auth, databases, and storage wired up and ready to run.</p></article>
+          <article class="cap-card"><span class="cap-icon">{} </span><h3>Automatic code &amp; dependencies</h3><p>Structured React and TypeScript files with packages resolved automatically.</p></article>
+          <article class="cap-card"><span class="cap-icon">✓</span><h3>Build verification</h3><p>The engine verifies the project in real time before it ever reaches you.</p></article>
+          <article class="cap-card"><span class="cap-icon">◐</span><h3>Preview and iteration</h3><p>A live sandbox to explore, refine, and re-prompt until it is right.</p></article>
+        </div>
+      </section>
+
+      <section class="vision-section section-shell">
+        <div class="vision-inner"><div class="eyebrow">05 / Vision</div><h2>From intention <em>to infinity.</em></h2><p>If you can describe it, Orvix can build it. The boundary between an idea and a product is finally a sentence — and the engine keeps getting faster, sharper, and more autonomous with every build.</p></div>
+      </section>
+
+      <section class="faq-section section-shell" id="faq">
+        <div class="section-intro"><div class="eyebrow">06 / FAQ</div><h2>Questions, <em>answered.</em></h2><p>Everything you might want to know before joining the waitlist.</p></div>
+        <div class="faq-accordion" id="faq-accordion">
+          <details class="faq-item"><summary><span>What is Orvix?</span><span class="faq-icon">+</span></summary><div class="faq-answer"><p>Orvix is an AI-powered Vibe Coding platform that turns natural language into complete, working websites and applications.</p></div></details>
+          <details class="faq-item"><summary><span>Can Orvix generate full-stack applications?</span><span class="faq-icon">+</span></summary><div class="faq-answer"><p>Yes. Orvix generates structured React and TypeScript projects, verifies builds, and provides a live interactive sandbox preview.</p></div></details>
+          <details class="faq-item"><summary><span>Who is Orvix for?</span><span class="faq-icon">+</span></summary><div class="faq-answer"><p>Orvix is for founders, designers, developers, and teams who want to move from an idea to a working product faster.</p></div></details>
+          <details class="faq-item"><summary><span>Who founded Orvix.dev?</span><span class="faq-icon">+</span></summary><div class="faq-answer"><p>Orvix.dev was founded by Maryana Nunes.</p></div></details>
+          <details class="faq-item"><summary><span>What is Vibe Coding?</span><span class="faq-icon">+</span></summary><div class="faq-answer"><p>Vibe Coding is the practice of building software by describing what you want in natural language while an autonomous engine handles the design, code, dependencies, and verification.</p></div></details>
+          <details class="faq-item"><summary><span>Do I need to write code?</span><span class="faq-icon">+</span></summary><div class="faq-answer"><p>No. You describe your idea in plain language and Orvix handles the design, code, dependencies, and build verification. You can preview and export the result without touching a single line of code.</p></div></details>
+        </div>
+      </section>
+
+      <section class="waitlist-section section-shell" id="waitlist">
+        <div class="waitlist-glow"></div>
+        <div class="waitlist-copy"><div class="eyebrow">07 / Get in early</div><h2>Have an idea?<br /><em>Make it real.</em></h2><p>In Active Development now. Join the waitlist and be among the first to build with Orvix.</p></div>
+        <form class="waitlist-form" id="waitlist-form">
+          <label for="full-name">Full name</label>
+          <div class="input-row"><input id="full-name" name="full_name" type="text" placeholder="Maryana Nunes" autocomplete="name" required /></div>
+          <label for="email">Email address</label>
+          <div class="input-row"><input id="email" name="email" type="email" placeholder="you@company.com" autocomplete="email" required /><button class="button button-primary" type="submit" id="waitlist-submit">Join waitlist <span>↗</span></button></div>
+          <label class="consent-row"><input type="checkbox" id="consent" name="consent" required /><span>I agree to receive my early-access invitation and product updates from Orvix.</span></label>
+          <small id="form-message">No spam. Just your invitation when the time is right.</small>
+        </form>
+      </section>
     </main>
 
-    <footer class="site-footer section-shell"><a class="brand" href="#top"><img src="/Logo_Orvix_fundo_transparente.png" alt="" /><span>orvix<span class="brand-dot">.dev</span></span></a><span>From intention to infinity.</span><span>© 2026 Orvix</span></footer>
+    <footer class="site-footer section-shell"><a class="brand" href="#top"><img src="/Logo_Orvix_fundo_transparente.png" alt="" /><span>orvix<span class="brand-dot">.dev</span></span></a><span>From intention to infinity.</span><span>© 2026 Orvix.dev. Build the future by typing. Founded by Maryana Nunes.</span></footer>
     <script type="module" src="/script.js"></script>
   </body>
 </html>
